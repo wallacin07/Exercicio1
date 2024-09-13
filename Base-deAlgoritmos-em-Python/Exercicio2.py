@@ -28,7 +28,14 @@
 # 	return 0;
 # }
 
-linhas = 0
-colunas = 0
-
-
+linhas = 3
+colunas = 5
+matriz = []
+cont = 0
+for i in range(3):
+    linha = []
+    for j in range(5):
+        numero = int(input(f"Digite o numero que vai na posição {i} {j}\n-- "))
+        linha.append(numero)
+    matriz.append(linha)
+print(matriz)
