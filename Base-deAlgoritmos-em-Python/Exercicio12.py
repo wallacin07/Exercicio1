@@ -19,3 +19,16 @@
 # 	system("pause");
 # 	return 0;
 # }
+
+sal = 0
+total = 0
+media = 0
+
+i= 0
+for i in range(5):
+    sal = int(input("Informe o Salario\n-- "))
+    total = total + sal
+    
+print(f"Total: {total}")   
+media = total/5
+print(f"Media: {media}")
