@@ -46,3 +46,25 @@
 # return 0;	
 # }
 
+linhas = 3
+colunas = 5
+matriz1 = []
+matriz2 = []
+matrizsoma = []
+cont = 0
+for i in range(3):
+    linha = []
+    for j in range(3):
+        cont += 1
+        linha.append(cont)
+    matriz1.append(linha)
+    matriz2.append(linha)
+    
+for i in range(3):
+    linha = []
+    for j in range(3):
+        soma = matriz1[i][j] + matriz2[i][j] 
+        linha.append(soma)
+    matrizsoma.append(linha)
+    
+print(matrizsoma)
